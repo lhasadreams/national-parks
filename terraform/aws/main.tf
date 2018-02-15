@@ -3,9 +3,9 @@ terraform {
 }
 
 provider "aws" {
-  profile                 = "${var.aws_profile}"
-  shared_credentials_file = "~/.aws/credentials"
-  region                  = "${var.aws_region}"
+  #profile                 = "${var.aws_profile}"
+  #shared_credentials_file = "~/.aws/credentials"
+  region                  = "eu-west-2"
 }
 
 resource "random_id" "national_parks_id" {

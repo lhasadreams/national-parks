@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "us-west-2"
+  default = "eu-west-2"
 }
 
 variable "aws_profile" {
@@ -7,11 +7,11 @@ variable "aws_profile" {
 }
 
 variable "aws_key_pair_file" {
-  default = "~/.ssh/example.pem"
+  default = "~/.ssh/afd-london"
 }
 
 variable "aws_key_pair_name" {
-  default = "example"
+  default = "afd-london"
 }
 
 variable "aws_image_user" {
@@ -19,7 +19,7 @@ variable "aws_image_user" {
 }
 
 variable "habitat_origin" {
-  default = "example"
+  default = "national"
 }
 
 variable "env" {
