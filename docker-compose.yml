@@ -10,4 +10,4 @@ services:
       - 9631:9631
     links:
       - mongodb
-    command: --peer np-mongodb --bind database:np-mongodb.default
+    command: --peer np-mongodb --bind database:np-mongodb.default -u https://bldr.habitat.sh --channel stable -s at-once
