@@ -1,5 +1,7 @@
 ## Running in docker studio
 
+[![HIPAA](https://app.soluble.cloud/api/v1/public/badges/7ae00afc-0fa0-4c32-b6b3-97395376a496.svg)](https://app.soluble.cloud/repos/details/github.com/lhasadreams/national-parks)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/261e7d1a-b5bb-416b-a7b3-09367ef54f64.svg)](https://app.soluble.cloud/repos/details/github.com/lhasadreams/national-parks)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/98cf478c-af09-4175-8889-748f2b56173a.svg)](https://app.soluble.cloud/repos/details/github.com/lhasadreams/national-parks)  
+
 ```
 $env:HAB_DOCKER_OPTS="-p 8080:8080"
 hab studio enter
